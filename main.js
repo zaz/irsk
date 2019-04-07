@@ -59,7 +59,6 @@ $("input[type='range']").change(function() {
 	let years = $("#years").val()
 
 	let max = max99(1+rf+rp*risk, vol*risk, years)
-	console.log(max)
 	let m = 10
 	if (max > 100) {
 		m = .5
