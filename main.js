@@ -38,6 +38,9 @@ let chart = new Chart(ctx, {
 		datasets: [ { data: d } ]
 	},
 	options: {
+		legend: {
+			display: false
+		},
 		scales: {
 			xAxes: [{
 				ticks: { fontSize: 20 },
